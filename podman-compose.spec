@@ -1,5 +1,5 @@
 Name: podman-compose
-Version: 1.2.0
+Version: 1.3.0
 Release: 1
 Source0: https://github.com/containers/podman-compose/archive/refs/tags/v%{version}.tar.gz
 Summary: An implementation of container Compose Spec with Podman backend.
