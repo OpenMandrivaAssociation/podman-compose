@@ -4,11 +4,13 @@ Release: 1
 Source0: https://github.com/containers/podman-compose/archive/refs/tags/v%{version}.tar.gz
 Summary: An implementation of container Compose Spec with Podman backend.
 URL: https://github.com/containers/podman-compose
-License: GPL-2.0
+License: GPL-2.0-only
 Group: Servers
 BuildArch: noarch
 BuildRequires: python
 BuildRequires: python%{pyver}dist(pip)
+BuildRequires: python%{pyver}dist(setuptools)
+BuildRequires: python%{pyver}dist(wheel)
 
 %description
 An implementation of Compose Spec with Podman backend. This project focuses on:
